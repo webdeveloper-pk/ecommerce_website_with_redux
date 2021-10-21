@@ -1,6 +1,7 @@
 # Ecommerce Website
-
-## Group Members: Abdullah, Mohibullah, Ebad
+# Credentials : 
+email: admin@gmail.com
+password : admin123
 
 ![alt text](https://www.x-cart.com/wp-content/uploads/2019/01/ecommerce-768x278.jpg)
 
