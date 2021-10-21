@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+.rainbow {
+  position: relative;
+  z-index: 0;
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 2rem;
+  font-weight: 500;
+
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 21%;
+    top: 26%;
+    width: 60%;
+    height: 50%;
+    border-radius: 50%;
+    background-color: #399953;
+    background-repeat: no-repeat;
+    background-size: 50% 50%, 50% 50%;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    background-image: linear-gradient(#399953, #399953),
+      linear-gradient(#ff00aa, #e648b7), linear-gradient(#d53e33, #d53e33),
+      linear-gradient(#377af5, #377af5);
+    animation: rotate 4s linear infinite;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 24px;
+    top: 31px;
+    width: calc(100% - 47px);
+    height: calc(100% - 61px);
+    background: #ffffff;
+    border-radius: 50px;
+  }
+}

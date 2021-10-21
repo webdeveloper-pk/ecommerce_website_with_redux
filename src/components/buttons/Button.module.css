@@ -1,0 +1,11 @@
+.customButton {
+  font-size: 14px;
+  background-color: transparent;
+  color: #d5243d;
+  text-transform: capitalize;
+  font-family: "Open Sans Condensed";
+  font-weight: 550;
+  cursor: pointer;
+  border: none;
+}
+

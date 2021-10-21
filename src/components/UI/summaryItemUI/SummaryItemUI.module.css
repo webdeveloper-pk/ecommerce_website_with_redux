@@ -1,0 +1,14 @@
+.product_wrapper {
+  height: 130px;
+  padding: 10px;
+}
+
+.inner_wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  background-color: #f6f6f6;
+  padding: 10px 20px;
+  width: 400px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

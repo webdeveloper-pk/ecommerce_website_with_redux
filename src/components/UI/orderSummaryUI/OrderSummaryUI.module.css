@@ -1,0 +1,114 @@
+.wrapper {
+  margin-top: 120px;
+  height: 560px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.left_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  gap: 15px;
+  background-color: #ffffff;
+}
+
+.left_wrapper h1 {
+  color: #08546c;
+  font-weight: 600;
+}
+
+.left_wrapper textarea {
+  background-color: transparent;
+  border: 1px solid lightgray;
+  text-align: left;
+  border-radius: 10px;
+  padding: 10px 20px;
+  width: 500px;
+  border: 1px solid #71849e;
+}
+
+.left_wrapper .submit_button {
+  background-image: linear-gradient(160deg, #4999b1 0%, #021a22 100%);
+  border: none;
+  border-radius: 20px;
+  padding: 12px 50px;
+  color: rgb(204, 188, 188);
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.left_wrapper .submit_button:hover {
+  font-weight: 700;
+  color: #ffffff;
+  box-shadow: 0 0 250px #000;
+}
+
+.left_wrapper input {
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  border: 1px solid #71849e;
+  color: #7e8ba3;
+  padding: 10px 20px;
+  text-align: left;
+  border-radius: 10px;
+  width: 500px;
+}
+
+.left_wrapper input:hover {
+  border: 1px solid #3a6e80;
+  box-shadow: 0 0 3px #3a6e80;
+  outline-offset: 0px;
+  outline: none;
+}
+
+.right_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 0px;
+  width: 40%;
+  background-color: #f6f6f6;
+}
+
+.summaryItemContainer {
+  overflow: auto;
+}
+
+.right_wrapper h1,
+h4 {
+  font-weight: 600;
+  color: #d5243d;
+  margin: 0;
+}
+
+.right_wrapper .product_wrapper {
+  height: 300px;
+  padding: 10px;
+  overflow: auto;
+}
+
+.inner_wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  background-color: #f6f6f6;
+  padding: 10px 20px;
+  width: 400px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.right_wrapper .confirm_button {
+  background-image: linear-gradient(160deg, #c7939a 0%, #d5243d 100%);
+  border: none;
+  border-radius: 3px;
+  padding: 12px 50px;
+  margin-top: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}

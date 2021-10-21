@@ -1,0 +1,24 @@
+.error_page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  text-align: center;
+}
+.error_page h1 {
+  color: red;
+}
+
+.error_page .link {
+  color: #08546c;
+  margin: 0px 5px;
+  font-weight: 700;
+  text-decoration: none;
+}

@@ -1,0 +1,31 @@
+.wrapper {
+  padding: 30px 10px;
+  width: 1240px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  text-decoration: none;
+}
+
+.wrapper .icon {
+  color: #08546c;
+  cursor: pointer;
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.itemSpan {
+  padding: 2px 6px;
+  border-radius: 50px;
+  border: 2px solid black;
+}
